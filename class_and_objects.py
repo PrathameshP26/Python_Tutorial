@@ -3,7 +3,7 @@ class person:
     occupation = "data Scientist"
 
     def info(self):
-        print("in func",self.name)
+        print("in func",self.name) # self means object which is calling this function
         print("in func",self.occupation)
 
 a = person()
