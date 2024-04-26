@@ -1,5 +1,5 @@
 class Person:
-    def __init__(self,n,o) -> None:
+    def __init__(self,n="#",o="*") -> None:
         print("hey")
         self.name=n
         self.occ=o
@@ -13,3 +13,6 @@ a.display()
 
 b=Person("raj","da")
 b.display()
+
+c=Person()
+c.display()
