@@ -14,5 +14,5 @@ a.display()
 b=Person("raj","da")
 b.display()
 
-c=Person()
+c=Person() #default params means its not compulsory to pass parameters
 c.display()
