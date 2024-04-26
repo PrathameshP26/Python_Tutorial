@@ -2,6 +2,10 @@ class person:
     name="ram"
     occupation = "data Scientist"
 
+    def info(self):
+        print("in func",self.name)
+        print("in func",self.occupation)
+
 a = person()
 print("before change",a.name)
 print("before change",a.occupation)
@@ -16,3 +20,5 @@ b=person()
 print("name for b:",b.name)
 print("occupation for b:",b.occupation)
 
+c=person()
+c.info()
