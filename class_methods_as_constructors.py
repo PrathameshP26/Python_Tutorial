@@ -17,3 +17,13 @@ print(p1.nameAge)
 str="ajay-24"
 p2 = Person.from_string(str)
 print(p2.nameAge)
+
+
+'''
+Output:
+
+PS D:\Python_Tutorial> python -u "d:\Python_Tutorial\class_methods_as_constructors.py"
+The name of the person is ram and age is 23.
+The name of the person is ajay and age is 24.
+PS D:\Python_Tutorial>
+'''
