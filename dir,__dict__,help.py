@@ -8,3 +8,5 @@ class A:
     
 a=A()
 print(a.__dict__) # all the instance variables are now in dictionary format
+
+print(help(A)) # if u want to get more information on the class and its members ,u can use help function
