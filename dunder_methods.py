@@ -1,3 +1,6 @@
+from typing import Any
+
+
 class Employee:
     name="ram"
 
@@ -7,6 +10,10 @@ class Employee:
             i=i+1
         return i
 
+    def __call__(self, *args: Any, **kwds: Any) -> Any:
+        print("hey i am good")
+
 e1 = Employee()
 print(e1.name)
 print(len(e1))
+e1()
